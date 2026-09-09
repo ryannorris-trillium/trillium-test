@@ -1,0 +1,22 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "openrouter/z-ai/glm-5.3-flash",
+  "small_model": "openrouter/z-ai/glm-5.3-flash",
+  "agent": {
+    "now": {
+      "description": "GLM 5.3 Flash, current cheap coding model",
+      "mode": "primary",
+      "model": "openrouter/z-ai/glm-5.3-flash"
+    },
+    "2024": {
+      "description": "Llama 3.1 8B (July 2024), a small open model",
+      "mode": "primary",
+      "model": "openrouter/meta-llama/llama-3.1-8b-instruct"
+    },
+    "2025": {
+  "description": "Gemini 2.5 Flash-Lite (July 2025)",
+  "mode": "primary",
+  "model": "openrouter/google/gemini-2.5-flash-lite"
+    }
+  }
+}
